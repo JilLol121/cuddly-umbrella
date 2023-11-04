@@ -12,6 +12,7 @@ Makefile.in
 
 autom4te.cache
 /autoscan.log
+/autoscan.gitignore 
 /aclocal.m4
 /compile
 /config.cache
