@@ -1,5 +1,5 @@
 > Function Check-Sandbox() { #TODO Function Check-Filter() {
-
+ 
 }
 # using dict because more stealthy than hashset
 # keys dont matter, so in real usage, replace with some benign text
