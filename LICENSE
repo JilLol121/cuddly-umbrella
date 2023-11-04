@@ -1,23 +1,6 @@
-#> 
-
-.SYNOPSIS
-
-Check for evidence of sandbox by looking for static honey files, checking if total c disk space is less than 50GB,
-the abscence of "_WAIT" connections (abscence of network connection activity), physical mem used by all processes from ps under 1.2GB,
-total physical memory less than or equal to 2GB. 
-Checks were discovered from probing VirusTotal sandboxes.
 
 
-.DESCRIPTION
-
-Determine if running in sandbox by checking environmental factors.
-
-#>
-Function Check-Sandbox() {
-    #TODO
-    Function Check-Filter() {
-
-#    }
+  }
     # using dict because more stealthy than hashset
     # keys dont matter, so in real usage, replace with some benign text
     # add your own filename filters here
