@@ -1,4 +1,3 @@
-<#
 .SYNOPSIS
 
 Check for evidence of sandbox by looking for static honey files, checking if total c disk space is less than 50GB,
