@@ -1,3 +1,5 @@
+#>
+
 .SYNOPSIS
 
 Check for evidence of sandbox by looking for static honey files, checking if total c disk space is less than 50GB,
@@ -15,7 +17,7 @@ Function Check-Sandbox() {
     #TODO
     Function Check-Filter() {
 
-    }
+#    }
     # using dict because more stealthy than hashset
     # keys dont matter, so in real usage, replace with some benign text
     # add your own filename filters here
